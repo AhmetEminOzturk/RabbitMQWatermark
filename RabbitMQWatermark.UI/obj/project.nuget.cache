@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PP5n1tExYmGicTA0ZThuSg8xHaUH6XVok0iK8fEZL7fZmZMxZxkv2wMT0xP0LFjXnK6Q8MCjSCrNwxCa1H8MUQ==",
+  "dgSpecHash": "WT3vrmAXbHjA+sOPpRB3jwLiVg4mWr6lJbfbsaOUPex9xoPl4u5aeWYzDksjLPTTOegqwpOzuW35KNtGWPhpJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\RabbitMQWatermark.UI.csproj",
+  "projectFilePath": "c:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\RabbitMQWatermark.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ahmet\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Ahmet\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

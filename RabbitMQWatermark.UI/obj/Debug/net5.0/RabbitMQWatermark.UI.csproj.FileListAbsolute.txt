@@ -52,3 +52,15 @@ C:\Users\Ahmet\Desktop\Trainings\RabbitMQWatermark\RabbitMQWatermark.UI\obj\Debu
 C:\Users\Ahmet\Desktop\Trainings\RabbitMQWatermark\RabbitMQWatermark.UI\obj\Debug\net5.0\RabbitMQWatermark.UI.pdb
 C:\Users\Ahmet\Desktop\Trainings\RabbitMQWatermark\RabbitMQWatermark.UI\obj\Debug\net5.0\RabbitMQWatermark.UI.genruntimeconfig.cache
 C:\Users\Ahmet\Desktop\Trainings\RabbitMQWatermark\RabbitMQWatermark.UI\obj\Debug\net5.0\ref\RabbitMQWatermark.UI.dll
+c:\Users\Ahmet\Desktop\Trainings\RabbitMQWatermark\RabbitMQWatermark.UI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+c:\Users\Ahmet\Desktop\Trainings\RabbitMQWatermark\RabbitMQWatermark.UI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\Users\Ahmet\Desktop\Trainings\RabbitMQWatermark\RabbitMQWatermark.UI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+c:\Users\Ahmet\Desktop\Trainings\RabbitMQWatermark\RabbitMQWatermark.UI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+c:\Users\Ahmet\Desktop\Trainings\RabbitMQWatermark\RabbitMQWatermark.UI\bin\Debug\net5.0\RabbitMQ.Client.dll
+c:\Users\Ahmet\Desktop\Trainings\RabbitMQWatermark\RabbitMQWatermark.UI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+c:\Users\Ahmet\Desktop\Trainings\RabbitMQWatermark\RabbitMQWatermark.UI\bin\Debug\net5.0\System.Drawing.Common.dll
+c:\Users\Ahmet\Desktop\Trainings\RabbitMQWatermark\RabbitMQWatermark.UI\bin\Debug\net5.0\System.IO.Pipelines.dll
+c:\Users\Ahmet\Desktop\Trainings\RabbitMQWatermark\RabbitMQWatermark.UI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+c:\Users\Ahmet\Desktop\Trainings\RabbitMQWatermark\RabbitMQWatermark.UI\bin\Debug\net5.0\System.Threading.Channels.dll
+c:\Users\Ahmet\Desktop\Trainings\RabbitMQWatermark\RabbitMQWatermark.UI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+c:\Users\Ahmet\Desktop\Trainings\RabbitMQWatermark\RabbitMQWatermark.UI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
