@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("RabbitMQWatermark.UI")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2ec6e8ce37eff25ce13daa9b6187788e256fec7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8230eaad5af7fb13f3000f79b79ce99def3a600")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RabbitMQWatermark.UI.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 

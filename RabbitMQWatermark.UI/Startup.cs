@@ -9,7 +9,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using RabbitMQ.Client;
 using RabbitMQWatermark.UI.Models;
+using RabbitMQWatermark.UI.Services;
 
 namespace RabbitMQWatermark.UI
 {
@@ -25,9 +27,21 @@ namespace RabbitMQWatermark.UI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<AppDbContext>(options=>{
-                options.UseInMemoryDatabase(databaseName:"productDb");
+
+            services.AddSingleton(sp=> new ConnectionFactory(){Uri = new Uri(Configuration.GetConnectionString("RabbitMQ"))});
+
+
+            services.AddSingleton<RabbitMQClientService>();
+
+            
+            services.AddSingleton<RabbitMQPublisher>();
+            
+            services.AddDbContext<AppDbContext>(options =>
+            {
+                options.UseInMemoryDatabase(databaseName: "productDb");
+
             });
+
             services.AddControllersWithViews();
         }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\RabbitMQWatermark.UI.csproj": {}
+    "C:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\RabbitMQWatermark.UI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\RabbitMQWatermark.UI.csproj": {
+    "C:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\RabbitMQWatermark.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\RabbitMQWatermark.UI.csproj",
+        "projectUniqueName": "C:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\RabbitMQWatermark.UI.csproj",
         "projectName": "RabbitMQWatermark.UI",
-        "projectPath": "c:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\RabbitMQWatermark.UI.csproj",
+        "projectPath": "C:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\RabbitMQWatermark.UI.csproj",
         "packagesPath": "C:\\Users\\Ahmet\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\obj\\",
+        "outputPath": "C:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ahmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,7 +59,7 @@
             },
             "RabbitMQ.Client": {
               "target": "Package",
-              "version": "[7.0.0-alpha.5, )"
+              "version": "[6.2.1, )"
             },
             "System.Drawing.Common": {
               "target": "Package",
