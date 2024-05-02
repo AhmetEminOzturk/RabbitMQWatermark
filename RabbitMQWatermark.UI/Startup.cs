@@ -1,7 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -10,8 +8,13 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RabbitMQ.Client;
+using RabbitMQWatermark.UI.BackgroundServices;
 using RabbitMQWatermark.UI.Models;
 using RabbitMQWatermark.UI.Services;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace RabbitMQWatermark.UI
 {
@@ -27,21 +30,17 @@ namespace RabbitMQWatermark.UI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
-            services.AddSingleton(sp=> new ConnectionFactory(){Uri = new Uri(Configuration.GetConnectionString("RabbitMQ"))});
-
+            services.AddSingleton(sp => new ConnectionFactory() { Uri = new Uri(Configuration.GetConnectionString("RabbitMQ")), DispatchConsumersAsync=true });
 
             services.AddSingleton<RabbitMQClientService>();
-
-            
             services.AddSingleton<RabbitMQPublisher>();
-            
+
             services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseInMemoryDatabase(databaseName: "productDb");
 
             });
-
+            services.AddHostedService<ImageWatermarkProcessBackgroundService>();
             services.AddControllersWithViews();
         }
 

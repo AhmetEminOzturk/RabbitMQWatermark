@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\RabbitMQWatermark.UI.csproj": {}
+    "c:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\RabbitMQWatermark.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\RabbitMQWatermark.UI.csproj": {
+    "c:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\RabbitMQWatermark.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\RabbitMQWatermark.UI.csproj",
+        "projectUniqueName": "c:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\RabbitMQWatermark.UI.csproj",
         "projectName": "RabbitMQWatermark.UI",
-        "projectPath": "C:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\RabbitMQWatermark.UI.csproj",
+        "projectPath": "c:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\RabbitMQWatermark.UI.csproj",
         "packagesPath": "C:\\Users\\Ahmet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\obj\\",
+        "outputPath": "c:\\Users\\Ahmet\\Desktop\\Trainings\\RabbitMQWatermark\\RabbitMQWatermark.UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ahmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,17 +45,25 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Mvc.TagHelpers": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[5.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",
@@ -63,7 +71,7 @@
             },
             "System.Drawing.Common": {
               "target": "Package",
-              "version": "[5.0.3, )"
+              "version": "[5.0.2, )"
             }
           },
           "imports": [

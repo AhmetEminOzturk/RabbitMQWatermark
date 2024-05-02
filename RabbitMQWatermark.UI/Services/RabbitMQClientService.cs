@@ -1,11 +1,9 @@
+using Microsoft.Extensions.Logging;
+using RabbitMQ.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.Extensions.Logging;
-using RabbitMQ.Client;
-using IModel = RabbitMQ.Client.IModel;
 
 namespace RabbitMQWatermark.UI.Services
 {
@@ -29,6 +27,7 @@ namespace RabbitMQWatermark.UI.Services
 
         public IModel Connect()
         {
+            _connectionFactory.DispatchConsumersAsync = true;
             _connection = _connectionFactory.CreateConnection();
 
            
